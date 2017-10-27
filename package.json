@@ -1,0 +1,17 @@
+{
+  "name": "sedano.me",
+  "version": "2.0.0",
+  "description": "sedano.me website",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Onamis",
+  "license": "ISC",
+  "dependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "sw-precache": "^5.2.0"
+  }
+}

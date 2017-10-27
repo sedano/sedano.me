@@ -1,0 +1,30 @@
+// Misc.
+	$misc: (
+		z-index-base:	10000
+	);
+
+// Duration.
+	$duration: (
+		header: 0.5s
+	);
+
+// Size.
+	$size: (
+		header: 275px,
+		avatar: 48px
+	);
+
+// Font.
+	$font: (
+		family:				('Source Sans Pro', sans-serif),
+		size:				19pt,
+		color:				#888888,
+		weight:				300
+	);
+
+// Palette.
+	$palette: (
+		bg:					#fff,
+		accent:				#ddd,
+		accent-dark:		#212121
+	);
