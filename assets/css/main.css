@@ -1443,13 +1443,18 @@ button,
     #main > section.three {
       background-color: #ecf1f1; }
       #main > section.three .title {
-        font-size: 1.2em; }
+        font-size: 1em;
+        font-weight: bold;
+        color: #666; }
       #main > section.three .dates {
         font-size: 0.9em; }
       #main > section.three .image {
         max-width: 100%; }
       #main > section.three .row {
         margin-bottom: 40px; }
+      #main > section.three .degree {
+        font-weight: bold;
+        color: #666; }
     #main > section.four {
       background-color: #e8edec; }
 
