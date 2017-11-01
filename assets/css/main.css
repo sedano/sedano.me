@@ -1067,6 +1067,9 @@ br.clear {
 .wide-left {
   text-align: left; }
 
+.small {
+  font-size: 0.8em; }
+
 /* Sections/Article */
 section, article {
   margin-bottom: 3em; }
@@ -1442,19 +1445,26 @@ button,
       background-color: #f5fafa; }
     #main > section.three {
       background-color: #ecf1f1; }
-      #main > section.three .title {
-        font-size: 1em;
-        font-weight: bold;
-        color: #666; }
-      #main > section.three .dates {
-        font-size: 0.9em; }
-      #main > section.three .image {
-        max-width: 100%; }
-      #main > section.three .row {
-        margin-bottom: 40px; }
-      #main > section.three .degree {
-        font-weight: bold;
-        color: #666; }
+    #main > section.two .title, #main > section.three .title, #main > section.four .title {
+      font-size: 1em;
+      font-weight: bold;
+      color: #666; }
+    #main > section.two .dates, #main > section.three .dates, #main > section.four .dates {
+      font-size: 0.9em; }
+    #main > section.two .image, #main > section.three .image, #main > section.four .image {
+      max-width: 100%; }
+    #main > section.two .fit, #main > section.three .fit, #main > section.four .fit {
+      max-width: 300px;
+      margin: 1em auto;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.25); }
+    #main > section.two .row, #main > section.three .row, #main > section.four .row {
+      margin-bottom: 40px; }
+    #main > section.two .degree, #main > section.three .degree, #main > section.four .degree {
+      font-weight: bold;
+      color: #666; }
+    #main > section.two .training, #main > section.three .training, #main > section.four .training {
+      font-weight: 400;
+      color: #666; }
     #main > section.four {
       background-color: #e8edec; }
 

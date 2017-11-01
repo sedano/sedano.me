@@ -183,6 +183,10 @@
 		text-align: left;
 	}
 
+	.small {
+		font-size: 0.8em;
+	}
+
 /* Sections/Article */
 
 	section, article {
@@ -671,6 +675,9 @@
 
 			&.three {
 				background-color: #ecf1f1;
+			}
+			
+			&.two, &.three, &.four {
 				.title {
 					font-size: 1em;
 					font-weight: bold;
@@ -683,11 +690,20 @@
 				.image {
 					max-width: 100%;
 				}
+				.fit {
+					max-width:300px;
+					margin: 1em auto;
+					box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+				}
 				.row {
 					margin-bottom: 40px;
 				}
 				.degree {
 					font-weight: bold;
+					color: #666;
+				}
+				.training {
+					font-weight: 400;
 					color: #666;
 				}
 			}
