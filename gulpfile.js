@@ -19,7 +19,11 @@ gulp.task('browser-sync', function () {
 
 gulp.task('sw', function (callback) {
     swPrecache.write("service-worker.js", {
-        staticFileGlobs: ['*.{js,html,css,png,jpg,gif,svg,ico,eot,ttf,woff,json,xml}', 'assets/{css,fonts,js}/**/*.*', 'images/**/*.{png,jpg}']
+        staticFileGlobs: ['*.{js,html,css,png,jpg,gif,svg,ico,eot,ttf,woff,json,xml}', 'assets/{css,fonts,js}/**/*.*', 'images/**/*.{png,jpg}'],
+        runtimeCaching: [{
+            urlPattern: /^https:\/\/fonts\.gstatic\.com/,
+            handler: 'cacheFirst'
+        }]
     }, callback);
 });
 
