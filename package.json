@@ -1,7 +1,5 @@
 {
   "name": "sedano.me",
-  "short_name": "sedano.me",
-  "start_url": "/",
   "version": "2.0.0",
   "description": "sedano.me website",
   "main": "gulpfile.js",

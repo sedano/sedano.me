@@ -1,5 +1,7 @@
 {
     "name": "sedano.me",
+    "short_name": "sedano.me",
+    "start_url": "/",
     "icons": [
         {
             "src": "/android-chrome-192x192.png",
